@@ -3,7 +3,7 @@ Development environment
 
 #Herramientas de instalación y gestión.
 
-#Pip
+# Pip
 Es un sistema usado para instalar y gestionar paquetes de software desarrollados en Python. Una lista de todos los paquetes que gestiona el manejador, se pueden encontrar en el índex de paquetes de Python (PyPI). 
 
 Como instalar esta herramienta en los diferentes sistemas operativos: 
