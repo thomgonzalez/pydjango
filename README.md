@@ -1,0 +1,2 @@
+# pydjango
+Development environment 
