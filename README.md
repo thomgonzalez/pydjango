@@ -10,12 +10,11 @@ Es un sistema usado para instalar y gestionar paquetes de software desarrollados
 Como instalar esta herramienta en los diferentes sistemas operativos: 
 
 Mac y Linux
-```python
+```git
 $ easy_install pip
 ```
-
 Windows
-```python
+```git
 c:\Python27\Scripts\easy_install.exe pip
 ```
 
@@ -25,15 +24,14 @@ Una vez que Pip haya sido instalado en la máquina, instalar cualquier otro mód
 fácil. 
 
 Mac y Linux
-```python
+```git
 $ pip install virtualenv
 ```
-
 Windows
-```python
+```git
 c:\Python27\Scripts\pip.exe install virtualenv
 ```
-crear un ambiente de desarrollo virtual.
+Crear un ambiente de desarrollo virtual.
 ```git
 $ virtualenv --no-site-packages test
 ```
