@@ -33,3 +33,7 @@ Windows
 ```python
 c:\Python27\Scripts\pip.exe install virtualenv
 ```
+crear un ambiente de desarrollo virtual.
+```git
+$ virtualenv --no-site-packages test
+```
