@@ -35,3 +35,34 @@ Crear un ambiente de desarrollo virtual.
 ```git
 $ virtualenv --no-site-packages test
 ```
+# Django
+Django es un framework para aplicaciones web gratuito y open source, escrito en Python. Es un WEB framework - un conjunto de componentes que te ayudan a desarrollar sitios web más fácil y rápidamente.
+
+Una vez que tengamos listo nuestro ambiente virtual, podemos proceder e instalar Django de la siguiente manera: 
+```git
+$ pip install django
+```
+
+Como usar Django
+----------------
+Lo primero que necesitamos hacer es crear un nuevo proyecto, para ello vamos a usar la siguiente línea de comando: 
+```git
+django-admin.py startproject test_web
+```
+Correr el servidor para comprobar que nuestro proyecto se pueda navegar en un explorador. Lo hacemos con el siguiente comando 'runserver': 
+```git
+$ python manage.py runserver
+```
+
+Para detener el servidor lo único que tenemos que hacer es presionar Ctrl + C. 
+Por último, veamos como desactivar el ambiente virtual de desarrollo. Para detener o desactivar el ambiente lo único que tenemos que hacer es tipear el siguiente comando: 
+
+```git
+$ deactivate
+```
+
+Crear app Django.
+```git
+python manage.py startapp principal
+```
+
