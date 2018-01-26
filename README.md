@@ -91,3 +91,15 @@ Running migrations:
   Applying auth.0006_require_contenttypes_0002... OK
   Applying sessions.0001_initial... OK
   ```
+Creando un usuario del admin
+----------------------------
+Primero tendremos que crear un usuario que pueda iniciar sesión en el sitio administrativo. Ejecute el siguiente comando:
+```git
+$ python manage.py createsuperuser
+
+Username (leave blank to use 'thomgonzalez'): admin
+Email address: email@dominio.com
+Password:
+Password (again):
+Superuser created successfully.
+```
