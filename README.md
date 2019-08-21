@@ -1,4 +1,4 @@
-# pydjango
+# Django documetation
 Development environment 
 
 Herramientas de instalación y gestión.
