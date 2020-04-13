@@ -35,6 +35,11 @@ Crear un ambiente de desarrollo virtual.
 ```git
 $ virtualenv --no-site-packages test
 ```
+Usar diferentes versiones de Python con virtualenv.
+```git
+$ python3 -m venv <myenvname>
+```
+  
 # Django
 Django es un framework para aplicaciones web gratuito y open source, escrito en Python. Es un WEB framework - un conjunto de componentes que te ayudan a desarrollar sitios web más fácil y rápidamente.
 
